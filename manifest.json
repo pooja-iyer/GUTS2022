@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fake Bot Plugin",
+  "description": "This extension will analyze information to determine if its fake",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "Fake_bot.PNG",
+   "default_popup": "fakeness.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
